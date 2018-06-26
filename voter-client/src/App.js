@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import './App.css';
 
-import Cards from './components/Cards'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Welcome from './components/Welcome'
+import Candidates from './components/Candidates';
 
 class App extends Component {
   render() {
@@ -16,8 +16,8 @@ class App extends Component {
           <Header />
           <Switch>
             <main>
-              <Route exact path='/welcome' component={() => <Welcome />} />
-              <Route exact path='/' component={() => <Cards />} />
+              <Route exact path='/' component={() => <Welcome />} />
+              <Route exact path='/candidates' component={() => <Candidates />} />
             </main>
           </Switch>
           <Footer />
