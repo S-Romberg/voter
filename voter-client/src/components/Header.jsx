@@ -8,11 +8,11 @@ class Header extends Component {
         <nav className='navBar'></nav>
         <div className='logIn'><a>Log In</a></div> 
           <ul className='pages'>
-              <li><a href='#'>Home</a></li>
-              <li><a href='#'>Candidate Information</a></li>
-              <li><a href='#'>My Ballot</a></li>
-              <li><a href='#'>Voter Resources</a></li>
-           </ul>
+              <li>Home</li>
+              <li>Candidate Information</li>
+              <li>My Ballot</li>
+              <li>Voter Resources</li>
+          </ul>
      </div>
     );
   }

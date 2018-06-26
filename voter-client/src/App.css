@@ -17,7 +17,7 @@ header{
   justify-content: center;
   font-size: 40px;
   padding-top: 5px;
-  margin-top: 5px;
+  margin-top: 3vw;
 }
 
 .logIn{
@@ -37,6 +37,35 @@ margin-right: 2vw;
 a:link {
   text-decoration: none;
   color: black;
+}
+h1 {
+  font-size: 40px;
+}
+img {
+  width: 200px;
+}
+
+.welcome {
+  padding: 6vw;
+}
+
+
+.paragraph {
+  font-size: 20px;
+  margin-top: 3vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 5px;
+}
+
+footer small {
+  margin: 0 auto;
 }
 
 @keyframes App-logo-spin {
