@@ -6,6 +6,8 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Welcome from './components/Welcome'
 import Candidates from './components/Candidates';
+import MyBallot from './components/MyBallot';
+import Resources from './components/Resources';
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
             <main>
               <Route exact path='/' component={() => <Welcome />} />
               <Route exact path='/candidates' component={() => <Candidates />} />
+              <Route exact path='/myballot' component={() => <MyBallot />} />
+              <Route exact path='/resources' component={() => <Resources />} />
             </main>
           </Switch>
           <Footer />
