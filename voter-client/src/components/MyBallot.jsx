@@ -30,8 +30,6 @@ class MyBallot extends Component {
   }
 
   render() {
-    // console.log(this.state.myCandidates[0]);
-
     return (
       <div>
         <p>MyBallot</p>

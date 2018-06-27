@@ -10,14 +10,12 @@ import Welcome from './components/Welcome'
 import Candidates from './components/Candidates';
 import MyBallot from './components/MyBallot';
 import Resources from './components/Resources';
-import Map from './components/Map'
+
 
 class App extends Component {
   constructor() {
     super()
     this.state = {
-      email: "",
-      password: "",
       redirect: false,
       logout: false
     }
@@ -65,7 +63,9 @@ class App extends Component {
         'Content-type': 'application/json'
       }),
       body: JSON.stringify(data)
-    }).then(this.login(email, password))
+    }).then(response => console.log(response))
+      .then(() => this.login(email, password))
+
   }
 
   render() {
@@ -87,7 +87,13 @@ class App extends Component {
                 <Route exact path='/candidates' component={() => <Candidates />} />
                 <Route exact path='/myballot' component={() => <MyBallot />} />
                 <Route exact path='/resources' component={() => <Resources />} />
-                <Route exact path='/signup' component={() => <Signup signUp={this.signUp} />} />
+                <Route exact path='/signup' render={() => (
+                  this.state.redirect && !this.state.logout ? (
+                    <Redirect to="/myballot" />
+                  ) : (
+                      <Signup login={this.login} logout={this.logout} signUp={this.signUp} />
+                    )
+                )} />
               </main>
             </Switch>
             <Footer />
