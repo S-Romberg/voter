@@ -1,18 +1,21 @@
-
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Shrikhand');
 /* Nav bar */
-header{
+
+header {
   border: solid black 4px;
   display: flex;
   flex-direction: column;
 }
-.navBar{
+
+.navBar {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.logo{
+.logo {
+  font-family: 'Shrikhand', cursive;
   display: flex;
   justify-content: center;
   font-size: 40px;
@@ -20,13 +23,14 @@ header{
   margin-top: 3vw;
 }
 
-.logIn{
+.logIn {
 display: flex;
 justify-content: flex-end;
 margin-left: 90vw;
 margin-right: 2vw;
 }
-.pages{
+
+.pages {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -36,13 +40,20 @@ margin-right: 2vw;
 
 a:link {
   text-decoration: none;
+  font-family: 'Roboto', light;
+  color: black;
+}
+
+a:visited {
   color: black;
 }
 
 /*welcome page*/
+
 h1 {
   font-size: 40px;
 }
+
 img {
   width: 200px;
 }
@@ -52,7 +63,12 @@ img {
   text-align: center;
 }
 
+.welcomeLogo {
+  font-family: 'Shrikhand', cursive;
+}
+
 .paragraph {
+  font-family: 'Roboto', Light;
   font-size: 20px;
   margin-top: 3vw;
   margin-left: 20vw;
@@ -61,61 +77,27 @@ img {
 
 /*Candidate Pages*/
 
-.ui.card{
+.ui.card {
   flex-direction: row;
   width: 50vw;
   height: 25vh;
   margin-left: 3vw;
   overflow-y: scroll;
 }
-::-webkit-scrollbar {
-  background-color: white;
-  } 
-   
-.card:-webkit-scrollbar-track
-{
-    -webkit-box-shadow: inset 0 0 6px white(0,0,0,0.3);
-    border-radius: 10px;
-    background-color: #F5F5F5;
-}
 
-.card:-webkit-scrollbar
-{
-    width: 12px;
-    background-color: #F5F5F5;
-}
-
-.card:-webkit-scrollbar-thumb
-{
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: #555;
-}
+ui.image {
+  width: auto;
+  max-width: 40%;}
 
 .card {
   margin-top: 2vw;
   margin-bottom: 2vw;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h2 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 30px;
+}
 
 
 /*Footer*/
