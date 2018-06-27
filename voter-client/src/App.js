@@ -10,6 +10,7 @@ import Welcome from './components/Welcome'
 import Candidates from './components/Candidates';
 import MyBallot from './components/MyBallot';
 import Resources from './components/Resources';
+import Map from './components/Map'
 
 class App extends Component {
   constructor() {
@@ -91,6 +92,7 @@ class App extends Component {
             </Switch>
             <Footer />
           </div>
+
         </BrowserRouter>
       </div>
     );
