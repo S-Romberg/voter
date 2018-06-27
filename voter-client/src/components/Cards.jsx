@@ -2,22 +2,39 @@ import React, { Component } from 'react';
 import { Card, Icon, Image } from 'semantic-ui-react'
 
 class Cards extends Component {
+
+  capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
   render() {
     return (
-      <div>
+      <div className="card">
           <Card>
-            <Image src='/images/avatar/large/matthew.png' />
+            <Image src={this.props.candidate.img} />
             <Card.Content>
-              <Card.Header>Matthew</Card.Header>
+              <Card.Header>{this.props.candidate.name}</Card.Header>
               <Card.Meta>
-                <span className='date'>Joined in 2015</span>
+                <span className='party'>{this.capitalizeFirstLetter(this.props.candidate.party)}</span>
               </Card.Meta>
-              <Card.Description>Matthew is a musician living in Nashville.</Card.Description>
+              <Card.Description>
+                <ul>
+                  <li>
+                    {this.props.candidate.p1}
+                  </li>
+                  <li>
+                    {this.props.candidate.p2}
+                  </li>
+                  <li>
+                    {this.props.candidate.p3}
+                  </li>
+                </ul>
+              </Card.Description>
             </Card.Content>
             <Card.Content extra>
               <a>
-                <Icon name='user' />
-                22 Friends
+                <Icon name='linkify' />
+                <a href={this.props.candidate.src}>Learn More</a>
               </a>
             </Card.Content>
           </Card>

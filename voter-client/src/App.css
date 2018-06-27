@@ -1,25 +1,102 @@
 .App {
   text-align: center;
+
+/* Nav bar */
+}
+header{
+  border: solid black 4px;
+  display: flex;
+  flex-direction: column;
+}
+.navBar{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.logo{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding-top: 5px;
+  margin-top: 3vw;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.logIn{
+display: flex;
+justify-content: flex-end;
+margin-left: 90vw;
+margin-right: 2vw;
+}
+.pages{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  list-style: none;
 }
 
-.App-title {
-  font-size: 1.5em;
+a:link {
+  text-decoration: none;
+  color: black;
 }
 
-.App-intro {
-  font-size: large;
+/*welcome page*/
+h1 {
+  font-size: 40px;
+}
+img {
+  width: 200px;
+}
+
+.welcome {
+  padding: 6vw;
+}
+
+.paragraph {
+  font-size: 20px;
+  margin-top: 3vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+/*Candidate Pages*/
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 5px;
+}
+
+footer small {
+  margin: 0 auto;
 }
 
 @keyframes App-logo-spin {
