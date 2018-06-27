@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+
+/* Nav bar */
 }
 header{
   border: solid black 4px;
@@ -38,6 +40,8 @@ a:link {
   text-decoration: none;
   color: black;
 }
+
+/*welcome page*/
 h1 {
   font-size: 40px;
 }
@@ -49,7 +53,6 @@ img {
   padding: 6vw;
 }
 
-
 .paragraph {
   font-size: 20px;
   margin-top: 3vw;
@@ -57,6 +60,34 @@ img {
   margin-right: 20vw;
 }
 
+/*Candidate Pages*/
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
 
 footer {
   position: fixed;

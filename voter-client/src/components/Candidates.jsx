@@ -47,10 +47,10 @@ class Candidates extends Component {
 
   render() {
     return (
-      <div>
+      <div className='cards'>
         <div className="candidateCards govs">
           {this.createCandidateElements(this.state.govs)} 
-        </div>
+        </div> 
         <div className="candidateCards atGen">
           {this.createCandidateElements(this.state.atGen)}
         </div>
