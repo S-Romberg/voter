@@ -147,7 +147,7 @@
             "office":"Senate District 1",
             "party":"Independent",
             "src": "https://ballotpedia.org/Paul_Daly",
-            "img": "https://www.chamber-music.org/sites/all/themes/custom/cma/images/profile-photo-empty.png",
+            "img": "https://i0.wp.com/www.daleylaw.com/wp-content/uploads/2016/02/Paul-F-Daley.jpg?fit=576%2C720",
             "p1":"",
             "p2":"",
             "p3":""
@@ -267,7 +267,7 @@
             "office":"Senate District 3",
             "party":"Unaffiliated",
             "src": "https://ballotpedia.org/Allen_Tompkins",
-            "img": "https://www.chamber-music.org/sites/all/themes/custom/cma/images/profile-photo-empty.png",
+            "img": "http://mhaedu.org/wp-content/uploads/2013/12/DW_photo-200x300.jpg",
             "p1":"",
             "p2":"",
             "p3":""
@@ -437,7 +437,7 @@
             "office":"Senate District 7",
             "party":"unaffiliated",
             "src": "https://ballotpedia.org/Marcus_France",
-            "img": "https://cdn.ballotpedia.org/images/f/fb/Silhouette_Placeholder_Image.png",
+            "img": "https://coloradopolitics.com/wp-content/uploads/2017/12/Bidlack.jpg",
             "p1":"",
             "p2":"",
             "p3":""
