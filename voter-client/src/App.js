@@ -8,6 +8,7 @@ import Welcome from './components/Welcome'
 import Candidates from './components/Candidates';
 import MyBallot from './components/MyBallot';
 import Resources from './components/Resources';
+import Map from './components/Map'
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
               <Route exact path='/candidates' component={() => <Candidates />} />
               <Route exact path='/myballot' component={() => <MyBallot />} />
               <Route exact path='/resources' component={() => <Resources />} />
+              <Route exact path='/map' component={() => <Map />} />
             </main>
           </Switch>
           <Footer />
