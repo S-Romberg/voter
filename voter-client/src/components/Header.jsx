@@ -6,14 +6,14 @@ class Header extends Component {
       <div className='header'>
         <div className='logo'>Voter</div>
         <nav className='navBar'></nav>
-        <div className='logIn'><a>Log In</a></div> 
-          <ul className='pages'>
-              <li><a href='/'>Home</a></li>
-              <li><a href='/candidates'>Candidate Information</a></li>
-              <li><a href='/myballot'>My Ballot</a></li>
-              <li><a href='/resources'>Voter Resources</a></li>
-          </ul>
-     </div>
+        <div className='logIn'><a href='/login'>Log In</a></div>
+        <ul className='pages'>
+          <li><a href='/'>Home</a></li>
+          <li><a href='/candidates'>Candidate Information</a></li>
+          <li><a href='/myballot'>My Ballot</a></li>
+          <li><a href='/resources'>Voter Resources</a></li>
+        </ul>
+      </div>
     );
   }
 }
