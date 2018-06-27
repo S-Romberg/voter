@@ -61,10 +61,12 @@ img {
 .welcome {
   padding: 6vw;
   text-align: center;
+  background-color: #00395f;
+  color: white;
 }
 
 .welcomeLogo {
-  font-family: 'Shrikhand', cursive;
+  font-family: 'roboto', bold;
 }
 
 .paragraph {
@@ -73,6 +75,35 @@ img {
   margin-top: 3vw;
   margin-left: 20vw;
   margin-right: 20vw;
+  padding-bottom: 3vw;
+}
+
+.howTo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3vw;
+  background-color: #d3d7cc;
+  color: black;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  padding: 2vw;
+}
+
+.howToH2{
+  color: #00395f;
+  font-family: 'Roboto', Light;
+}
+
+.listHeader {
+  color: red;
+}
+
+.listHeader span{
+  color: #00395f;
 }
 
 /*Candidate Pages*/
