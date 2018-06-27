@@ -114,7 +114,7 @@
         },
         {
             "name":"Diana DeGette",
-            "office":"senate district 1",
+            "office":"Senate District 1",
             "party":"Democrat",
             "src": "https://degette.house.gov/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Diana_Degette.jpg",
@@ -124,7 +124,7 @@
         },
         {
             "name":"Saira Rao",
-            "office":"senate district 1",
+            "office":"Senate District 1",
             "party":"Democrat",
             "src": "https://sairaforcongress.com/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Screen_Shot_2018-05-23_at_2.41.46_PM.png",
@@ -134,7 +134,7 @@
         },
         {
             "name":"Casper Stockham",
-            "office":"senate district 1",
+            "office":"Senate District 1",
             "party":"Republican",
             "src": "https://www.casperforcolorado.com/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Casper_Stockham.jpg",
@@ -274,7 +274,7 @@
         },
         {
             "name":"Chase Kohne",
-            "office":"senate district 4",
+            "office":"Senate District 4",
             "party":"democrat",
             "src": "http://www.chasekohneforcongress.com/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Chase_Kohne.jpg",
@@ -284,7 +284,7 @@
         },
         {
             "name":"Karen McCormick",
-            "office":"senate district 4",
+            "office":"Senate District 4",
             "party":"democrat",
             "src": "http://www.mccormickforcongress.org/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Karen_McCormick_.jpg",
@@ -294,7 +294,7 @@
         },
         {
             "name":"Ken Buck",
-            "office":"senate district 4",
+            "office":"Senate District 4",
             "party":"republican",
             "src": "http://www.buckforcolorado.com/",
             "img":"https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Ken_Buck_official_congressional_photo.jpg",
@@ -304,7 +304,7 @@
         },
         {
             "name":"Stephany Rose Spaulding",
-            "office":"senate district 5",
+            "office":"Senate District 5",
             "party":"democrat",
             "src": "http://www.stephanyroseforcongress.com/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/stephany-rose-spaulding.jpg",
@@ -314,7 +314,7 @@
         },
         {
             "name":"Doug Lamborn",
-            "office":"senate district 5",
+            "office":"Senate District 5",
             "party":"republican",
             "src": "http://www.lambornforcongress.org/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Doug_Lamborn.jpg",
@@ -324,7 +324,7 @@
         },
         {
             "name":"Darryl Glenn",
-            "office":"senate district 5",
+            "office":"Senate District 5",
             "party":"republican",
             "src": "https://www.darrylglennforcongress.com/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Darryl_Glenn.jpg",
@@ -334,7 +334,7 @@
         },
         {
             "name":"Owen Hill",
-            "office":"senate district 5",
+            "office":"Senate District 5",
             "party":"republican",
             "src": "http://www.owenhill.org/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Owen_Hill.jpg",
@@ -344,7 +344,7 @@
         },
         {
             "name":"Bill Rhea",
-            "office":"senate district 5",
+            "office":"Senate District 5",
             "party":"republican",
             "src": "https://ballotpedia.org/Bill_Rhea",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Bill_Rhea.jpg",
@@ -354,7 +354,7 @@
         },
         {
             "name":"Tyler Stevens",
-            "office":"senate district 5",
+            "office":"Senate District 5",
             "party":"republican",
             "src": "https://ballotpedia.org/Tyler_Stevens",
             "img": "",
@@ -364,7 +364,7 @@
         },
         {
             "name":"Jason Crow",
-            "office":"senate district 6",
+            "office":"Senate District 6",
             "party":"democrat",
             "src": "http://jasoncrowforcongress.com/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Jason_Crow.jpg",
@@ -374,7 +374,7 @@
         },
         {
             "name":"Levi Tillemann",
-            "office":"senate district 6",
+            "office":"Senate District 6",
             "party":"democrat",
             "src": "https://www.leviforcolorado.com/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Levi_Tillemann.jpg",
@@ -384,7 +384,7 @@
         },
         {
             "name":"Mike Coffman",
-            "office":"senate district 6",
+            "office":"Senate District 6",
             "party":"republican",
             "src": "http://coffmanforcongress.com/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Mike_Coffman.jpg",
@@ -394,7 +394,7 @@
         },
         {
             "name":"Dan Chapin",
-            "office":"senate district 6",
+            "office":"Senate District 6",
             "party":"unaffiliated",
             "src": "https://ballotpedia.org/Dan_Chapin",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Dan_Chapin.jpg",
@@ -404,7 +404,7 @@
         },
         {
             "name":"Ed Perlmutter",
-            "office":"senate district 7",
+            "office":"Senate District 7",
             "party":"democrat",
             "src": "https://perlmutterforcolorado.com/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Ed_Perlmutter.jpg",
@@ -414,7 +414,7 @@
         },
         {
             "name":"Mark Barrington",
-            "office":"senate district 7",
+            "office":"Senate District 7",
             "party":"republican",
             "src": "https://barringtonforcolorado.com/",
             "img": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj__6P86_HbAhUqi1QKHat2A20QjRx6BAgBEAU&url=https%3A%2F%2Fwww.coloradopols.com%2Fdiary%2F41791%2Fthe-revenge-of-the-fauxhawk-mark-barrington-running-for-lakewood-city-council&psig=AOvVaw238yjVGt6aGLqu9XAzJAe5&ust=1530120135552684",
@@ -424,7 +424,7 @@
         },
         {
             "name":"Nathan Clay",
-            "office":"senate district 7",
+            "office":"Senate District 7",
             "party":"independent",
             "src": "http://www.nathanclayforcongress.com/",
             "img": "https://api.ballotpedia.org/v3/thumbnail/200/300/crop/best/Nathan_Clay.png",
@@ -434,7 +434,7 @@
         },
         {
             "name":"Marcus France",
-            "office":"senate district 7",
+            "office":"Senate District 7",
             "party":"unaffiliated",
             "src": "https://ballotpedia.org/Marcus_France",
             "img": "https://cdn.ballotpedia.org/images/f/fb/Silhouette_Placeholder_Image.png",
