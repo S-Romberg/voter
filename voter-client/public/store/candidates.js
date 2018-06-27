@@ -357,7 +357,7 @@
             "office":"Senate District 5",
             "party":"republican",
             "src": "https://ballotpedia.org/Tyler_Stevens",
-            "img": "",
+            "img": "https://media2.fdncms.com/csindy/imager/u/original/3712971/tylerstevens.jpg",
             "p1":"",
             "p2":"",
             "p3":""
@@ -417,7 +417,7 @@
             "office":"Senate District 7",
             "party":"republican",
             "src": "https://barringtonforcolorado.com/",
-            "img": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj__6P86_HbAhUqi1QKHat2A20QjRx6BAgBEAU&url=https%3A%2F%2Fwww.coloradopols.com%2Fdiary%2F41791%2Fthe-revenge-of-the-fauxhawk-mark-barrington-running-for-lakewood-city-council&psig=AOvVaw238yjVGt6aGLqu9XAzJAe5&ust=1530120135552684",
+            "img": "http://www.mastersonphoto.com/businessphotographer/images/businessphotography-05.jpg",
             "p1":"",
             "p2":"",
             "p3":""
