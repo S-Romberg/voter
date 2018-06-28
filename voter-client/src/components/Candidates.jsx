@@ -14,7 +14,13 @@ class Candidates extends Component {
       senD4:[], 
       senD5:[], 
       senD6:[], 
-      senD7:[]
+      senD7:[],
+      gunControl: [],
+      immigration: [],
+      parisAccords: [],
+      noGun: [],
+      noImm: [],
+      noPar: []
     }
     
   }
@@ -30,8 +36,14 @@ class Candidates extends Component {
     let senD5 = arr.filter(cand =>cand.office === 'Senate District 5')
     let senD6 = arr.filter(cand =>cand.office === 'Senate District 6')
     let senD7 = arr.filter(cand =>cand.office === 'Senate District 7')
+    let gunControl = arr.filter(cand => cand.gunControl === true)
+    let immigration = arr.filter(cand => cand.immigration === true)
+    let parisAccords = arr.filter(cand => cand.parisAccords === true)
+    let noGun = arr.filter(cand => cand.gunControl === false)
+    let noImm = arr.filter(cand => cand.immigration === false)
+    let noPar = arr.filter(cand => cand.parisAccords === false)
     this.setState({
-      govs, atGen, secOfState, senD1, senD2, senD3, senD4, senD5, senD6, senD7
+      govs, atGen, secOfState, senD1, senD2, senD3, senD4, senD5, senD6, senD7, gunControl, immigration, parisAccords, noGun, noImm, noPar
     })
 }
 
@@ -48,7 +60,7 @@ class Candidates extends Component {
   render() {
     return (
       <div className='cards'>
-      <h2>Governor</h2>
+      <h2>Govenor</h2>
         <div className="candidateCards govs">
           {this.createCandidateElements(this.state.govs)} 
         </div> 
