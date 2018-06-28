@@ -11,27 +11,27 @@
  By giving voters an easy, digestable source of information they can learn about the important people playing a role in their local government. Informing voters about candidates before they enter a voting booth leads to not only informed and confident voters (and more of them) but also more effective public servants.
 
 ### UX
- When opening the app for the first time, the user is greeted on a landing page.
- The user can then create an account to build a 'personal ballot', or just browse candidate information.
- Once ready to browse information, users can filter by political party, government position, or by stance on hot topic issues
- Each candidate has a personal card including photo, political party, top platforms and link to personal site to learn more.
- Users have the option to save candidates to their 'personal ballot' to remember favorite candidates until election day.
+ - When opening the app for the first time, the user is greeted on a landing page.
+ - The user can then create an account to build a 'personal ballot', or just browse candidate information.
+ - Once ready to browse information, users can filter by political party, government position, or by stance on hot topic issues
+ - Each candidate has a personal card including photo, political party, top platforms and link to personal site to learn more.
+ - Users have the option to save candidates to their 'personal ballot' to remember favorite candidates until election day.
 
 ### Data Exchange
  Data that the app collects from the user
-   Email
-   Password
+   - Email
+   - Password
  Data the app gives to the user
-   Election time/date
-   Candidate information
-   Map/location of ballot boxes
+   - Election time/date
+   - Candidate information
+   - Map/location of ballot boxes
 
 ### User Needs
- As a user I need to be able to create a secure account
- I would like to be able to seamlessly change from candidate to candidate
- Information needs to be easily read and digestable.
- Information on the voting process and potential links to voter registration
- Personal ballot saves information for next login.
+ - As a user I need to be able to create a secure account
+ - I would like to be able to seamlessly change from candidate to candidate
+ - Information needs to be easily read and digestable.
+ - Information on the voting process and potential links to voter registration
+ - Personal ballot saves information for next login.
 
 
 ### The Technology
