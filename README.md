@@ -35,8 +35,8 @@
 
 
 ### The Technology
- React, React Router
- Express, Knex, PostgreSQL
- Heroku
- Google map API
- Semantic UI
+ - React, React Router
+ - Express, Knex, PostgreSQL
+ - Heroku
+ - Google map API
+ - Semantic UI
