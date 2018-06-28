@@ -20,16 +20,16 @@ class Candidates extends Component {
   }
 
   filterCandidates(arr){
-    let govs = arr.filter(cand =>cand.office == 'governer')
-    let atGen = arr.filter(cand =>cand.office == 'attorney general')
-    let secOfState = arr.filter(cand =>cand.office == 'secretary of state')
-    let senD1 = arr.filter(cand =>cand.office == 'Senate District 1')
-    let senD2 = arr.filter(cand =>cand.office == 'Senate District 2')
-    let senD3 = arr.filter(cand =>cand.office == 'Senate District 3')
-    let senD4 = arr.filter(cand =>cand.office == 'Senate District 4')
-    let senD5 = arr.filter(cand =>cand.office == 'Senate District 5')
-    let senD6 = arr.filter(cand =>cand.office == 'Senate District 6')
-    let senD7 = arr.filter(cand =>cand.office == 'Senate District 7')
+    let govs = arr.filter(cand =>cand.office === 'governer')
+    let atGen = arr.filter(cand =>cand.office === 'attorney general')
+    let secOfState = arr.filter(cand =>cand.office === 'secretary of state')
+    let senD1 = arr.filter(cand =>cand.office === 'Senate District 1')
+    let senD2 = arr.filter(cand =>cand.office === 'Senate District 2')
+    let senD3 = arr.filter(cand =>cand.office === 'Senate District 3')
+    let senD4 = arr.filter(cand =>cand.office === 'Senate District 4')
+    let senD5 = arr.filter(cand =>cand.office === 'Senate District 5')
+    let senD6 = arr.filter(cand =>cand.office === 'Senate District 6')
+    let senD7 = arr.filter(cand =>cand.office === 'Senate District 7')
     this.setState({
       govs, atGen, secOfState, senD1, senD2, senD3, senD4, senD5, senD6, senD7
     })

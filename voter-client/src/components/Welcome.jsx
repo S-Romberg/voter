@@ -19,15 +19,15 @@ class Welcome extends Component {
           <h2 className='howToH2'>How It Works</h2>
         </div>
         <div className='list'>
-        <div calssName='li1'>
+        <div className='li1'>
           <h3 className='listHeader'>01<span> Explore your candidates</span></h3>
           <p>Explore each candidates platforms and major issues.</p>
         </div>
-        <div calssName='li2'>
+        <div className='li2'>
           <h3 className='listHeader'>02<span> Make Informed Choices</span></h3>
           <p>Voter makes it easy to make informed decisions on important issues in your distric & state.</p>
         </div>
-        <div calssName='li3'>
+        <div className='li3'>
           <h3 className='listHeader'>03<span> Vote!</span></h3>
           <p>Voter allows you to save your choices so you have them ready to go at the polls.</p>
         </div>
