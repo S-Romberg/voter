@@ -48,7 +48,7 @@ class Candidates extends Component {
   render() {
     return (
       <div className='cards'>
-      <h2>Govenor</h2>
+      <h2>Governor</h2>
         <div className="candidateCards govs">
           {this.createCandidateElements(this.state.govs)} 
         </div> 
