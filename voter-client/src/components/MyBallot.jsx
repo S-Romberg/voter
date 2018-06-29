@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DeleteUser from './DeleteUser'
 
 class MyBallot extends Component {
   constructor(props) {
@@ -33,6 +34,7 @@ class MyBallot extends Component {
     return (
       <div>
         <p>MyBallot</p>
+        <DeleteUser></DeleteUser>
       </div>
     );
   }

@@ -82,7 +82,7 @@ replaceOffice(office){
   }
 
   createCandidateElements(arr){
-    return arr.map(candidate => <Cards id={candidate.id} candidate={candidate} />)
+    return arr.map(candidate => <Cards candidate={candidate} key={candidate.id}/>)
   }
 
   changeChoice = (event) => {

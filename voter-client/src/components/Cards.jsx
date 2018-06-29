@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Card, Icon, Image } from 'semantic-ui-react'
+import ButtonAdd from './ButtonAdd';
+import ButtonRemove from './ButtonRemove'
 
 class Cards extends Component {
 
@@ -17,6 +19,9 @@ class Cards extends Component {
               <Card.Header>{this.props.candidate.name}</Card.Header>
               <Card.Meta>
                 <span className='party'>{this.capitalizeFirstLetter(this.props.candidate.party)}</span>
+                <br></br>
+                <ButtonAdd></ButtonAdd>
+                <ButtonRemove></ButtonRemove>
               </Card.Meta>
               <Card.Description>
                 <ul>
