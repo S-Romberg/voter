@@ -25,7 +25,7 @@ class App extends Component {
   }
 
   login(email, password) {
-    let url = "http://voterbackend.herokuapp.com/"
+    let url = "https://voterbackend.herokuapp.com/"
     let data = { email, password }
     console.log(data)
     fetch(url + "auth/login", {
@@ -55,7 +55,7 @@ class App extends Component {
   }
 
   signUp(email, password) {
-    let url = "http://voterbackend.herokuapp.com/"
+    let url = "https://voterbackend.herokuapp.com/"
     let data = { email, password }
     fetch(url + "auth/signup", {
       method: 'POST',
@@ -65,7 +65,6 @@ class App extends Component {
       body: JSON.stringify(data)
     }).then(response => console.log(response))
       .then(() => this.login(email, password))
-
   }
 
   render() {
