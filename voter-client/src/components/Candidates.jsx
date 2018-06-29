@@ -28,6 +28,32 @@ class Candidates extends Component {
     
   }
 
+  replaceOffice(office){
+    switch(office){
+    case 'governer':
+      return 'gov'
+    case 'attorney general':
+      return 'ag'
+    case 'secretary of state':
+      return 'sos'
+    case 'Senate District 1':
+      return 'd1'
+    case 'Senate District 2':
+      return 'd2'
+    case 'Senate District 3':
+      return 'd3'
+    case 'Senate District 4':
+      return 'd4'
+    case 'Senate District 5':
+      return 'd5'
+    case 'Senate District 6':
+      return 'd6'
+    case 'Senate District 7':
+      return 'd7'
+    
+    }
+} 
+
   filterCandidates(arr){
     let govs = arr.filter(cand =>cand.office === 'governer')
     let atGen = arr.filter(cand =>cand.office === 'attorney general')
@@ -82,7 +108,7 @@ replaceOffice(office){
   }
 
   createCandidateElements(arr){
-    return arr.map(candidate => <Cards candidate={candidate} key={candidate.id}/>)
+    return arr.map(candidate => <Cards office={this.replaceOffice(candidate.office)} candidate={candidate} key={candidate.id} addToBallot={this.props.addToBallot}/>)
   }
 
   changeChoice = (event) => {

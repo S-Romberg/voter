@@ -20,7 +20,8 @@ class Cards extends Component {
               <Card.Meta>
                 <span className='party'>{this.capitalizeFirstLetter(this.props.candidate.party)}</span>
                 <br></br>
-                <ButtonAdd></ButtonAdd>
+                <ButtonAdd addToBallot={this.props.addToBallot} candId={this.props.candidate.id}
+                office={this.props.office}></ButtonAdd>
                 <ButtonRemove></ButtonRemove>
               </Card.Meta>
               <Card.Description>

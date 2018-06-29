@@ -17,11 +17,35 @@ class App extends Component {
     super()
     this.state = {
       redirect: false,
-      logout: false
+      logout: false,
+      myCandidates:{
+        gov:0,
+        ag:0, 
+        sos:0, 
+        d1:0, 
+        d2:0, 
+        d3:0, 
+        d4:0, 
+        d5:0, 
+        d6:0, 
+        d7:0
+      }
     }
     this.login = this.login.bind(this)
     this.logout = this.logout.bind(this)
     this.signUp = this.signUp.bind(this)
+    this.addToBallot = this.addToBallot.bind(this)
+  }
+
+  addToBallot(e){
+    let name = e.target.getAttribute('name')
+    this.setState({
+      ...this.state,
+      myCandidates:{
+        ...this.state.myCandidates,
+        [name]: parseInt([e.target.id])
+      }
+    })
   }
 
   login(email, password) {
@@ -95,7 +119,7 @@ class App extends Component {
                       <Login login={this.login} logout={this.logout} />
                     )
                 )} />
-                <Route exact path='/candidates' component={() => <Candidates />} />
+                <Route exact path='/candidates' component={() => <Candidates addToBallot={this.addToBallot} />} />
                 <Route exact path='/myballot' component={() => <MyBallot />} />
                 <Route exact path='/resources' component={() => <Resources />} />
                 <Route exact path='/signup' render={() => (
