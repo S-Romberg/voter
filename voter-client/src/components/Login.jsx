@@ -11,7 +11,7 @@ class Login extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='loginForm'>
                 <form className="ui form" ref="login-form" onSubmit={this.handleSubmit.bind(this)} >
                     <div className="field">
                         <label>Enter email</label>

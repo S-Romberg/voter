@@ -66,7 +66,19 @@ class App extends Component {
     }).then(response => console.log(response))
       .then(() => this.login(email, password))
   }
-
+  updateBallot = (event) => {
+    let token = window.localStorage.token
+    let url = "http://voterbackend.herokuapp.com/myballot"
+    fetch(url, {
+      method: 'PUT',
+      headers:{
+        Authorization: `Bearer ${token}`
+      },
+      body: {
+        [event.target.name]: [event.target.id]
+      }
+    })
+  }
   render() {
     return (
       <div className="App">
