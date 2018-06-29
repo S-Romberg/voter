@@ -10,9 +10,8 @@ class ButtonAdd extends Component {
   render() {
     return (
     <Fragment>
-      <Button color='blue' >
-        <span>Add</span>
-        <Icon name='checkmark' size='big' className='icon'></Icon>
+      <Button color='blue' onClick={this.props.addToBallot}>
+        <span id={this.props.candId} name={this.props.office}>Add</span>
       </Button>
     </Fragment>
     )
