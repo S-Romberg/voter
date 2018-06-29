@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+voter/node_modules
 
 # testing
 /coverage
