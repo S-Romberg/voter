@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Cards from './Cards';
+import Filtered from './Filtered'
 
 class Candidates extends Component {
   constructor(){
@@ -20,7 +21,9 @@ class Candidates extends Component {
       parisAccords: [],
       noGun: [],
       noImm: [],
-      noPar: []
+      noPar: [],
+      choice: '',
+      chosen: false
     }
     
   }
@@ -48,19 +51,39 @@ class Candidates extends Component {
 }
 
   componentDidMount(){
-    fetch(`./store/candidates.js`)
+    fetch(`http://voterbackend.herokuapp.com/candidates`)
     .then(res => res.json())
-    .then(data => this.filterCandidates(data.candidates))
+    .then(data => this.filterCandidates(data.allCandidates))
   }
 
   createCandidateElements(arr){
     return arr.map(candidate => <Cards candidate={candidate} />)
   }
 
+  changeChoice = (event) => {
+    event.preventDefault()
+    this.setState({
+      choice: event.target.name,
+      chosed: true
+    })
+
+  }
+
   render() {
     return (
-      <div className='cards'>
-      <h2>Govenor</h2>
+      <div>
+      {this.state.chosen ?
+      <Filtered choice={this.state.choice}/> :
+      <div  className='cards'>
+        <select onChange={this.changeChoice}>
+            <option value='immigration' >Immigration</option>
+            <option value='gunControl' >Gun Control</option>
+            <option value='parisAccords' >Paris Accord</option>
+            <option value='noImm' >Anti Immigration</option>
+            <option value='noGun' >Anti Gun Control</option>
+            <option value='noPar' >Anti Paris Accord</option>
+        </select>
+      <h2>Governor</h2>
         <div className="candidateCards govs">
           {this.createCandidateElements(this.state.govs)} 
         </div> 
@@ -100,6 +123,8 @@ class Candidates extends Component {
         <h2>Senator District 7</h2>
           {this.createCandidateElements(this.state.senD7)}
         </div>
+        </div>
+      }
       </div>
     );
   }

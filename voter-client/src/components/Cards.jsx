@@ -30,12 +30,10 @@ class Cards extends Component {
                   </li>
                 </ul>
               </Card.Description>
-            </Card.Content>
-            <Card.Content extra>
-              <a>
+              <div className='extra'>
                 <Icon name='linkify' />
                 <a href={this.props.candidate.src}>Learn More</a>
-              </a>
+              </div>
             </Card.Content>
           </Card>
       </div>

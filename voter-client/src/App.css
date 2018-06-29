@@ -7,8 +7,6 @@
   margin: 0;
   padding: 0;
   width: 100%;
-
-  
 }
 
 header {
@@ -148,25 +146,63 @@ img {
   padding: 1vw;
 }
 /*Candidate Pages*/
-
+select {
+  margin: 1vh ;
+  margin-top: 12px;
+  height: 48px;
+  width: 15vw;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #666666;
+  padding: 9px;
+  font-family: 'IM Fell French Canon SC', serif;
+  font-size: 16px;
+  color: #666666;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  -moz-appearance: none;
+  appearance: none;
+  /* background: url('potter-icon.jpg') no-repeat 97% 50% #ffffff; */
+  /* background-size: 20px 15px; */
+}
+select:hover {
+  margin: 1vh;
+  margin-top: 12px;
+  height: 48px;
+  width: 15vw;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: black;
+  font-size: 16px;
+  color: black;
+  /* background: url('potter-icon.jpg') no-repeat 97% 50% #ffffff; */
+  /* background-size: 20px 15px; */
+}
 .ui.card {
   flex-direction: row;
   width: 50vw;
-  height: 25vh;
-  margin-left: 3vw;
+  height: 30vh;
+}
+.card{
+  margin-bottom: 2vh;
+}
+.content{
   overflow-y: scroll;
 }
 
-ui.image {
+.ui.image {
   width: auto;
-  max-width: 40%;}
+  max-width: 40%;
+  position: fixed;
+}
 
 .cards {
   display: flex;
+  width: 100vw;
   flex-direction: column;
-  align-content: center;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
 }
 
 h2 {

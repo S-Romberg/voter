@@ -25,18 +25,6 @@
             "gunControl":"true",
             "parisAccords":"true"
         },{
-            "name":"Donna Lynne",
-            "office":"governer",
-            "party":"democrat",
-            "src": "http://lynneforcolorado.com/",
-            "img": "https://www.colorado.gov/pacific/sites/default/files/Donna%20Lynne-WEB2.jpg",
-            "p1":"",
-            "p2":"",
-            "p3":"",
-            "immigration":"true",
-            "gunControl":"true",
-            "parisAccords":"true"
-        },{
             "name":"Jarid Polis",
             "office":"governer",
             "party":"democrat",

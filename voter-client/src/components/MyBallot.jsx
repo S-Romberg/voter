@@ -15,7 +15,7 @@ class MyBallot extends Component {
   getData() {
     const token = window.localStorage.token
     if (token) {
-      fetch('http://localhost:3000/user/myballot', {
+      fetch('http://voterbackend.herokuapp.com/user/myballot', {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`
