@@ -107,3 +107,17 @@ Spencer - lead meeting
 
 
 
+## Friday
+
+#### Spencer:
+- Queries
+
+#### Dillon:
+- My ballot PUT request and rendering
+
+#### Colin:
+- Login stuff
+- pairing to mess with queries
+
+#### Taylor: 
+- Slides!

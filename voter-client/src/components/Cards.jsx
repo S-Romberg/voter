@@ -10,6 +10,7 @@ class Cards extends Component {
 }
 
   render() {
+    console.log(this.props.office)
     return (
       <div className="card">
           <Card>
