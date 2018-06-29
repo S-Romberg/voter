@@ -49,6 +49,31 @@ class Candidates extends Component {
       govs, atGen, secOfState, senD1, senD2, senD3, senD4, senD5, senD6, senD7, gunControl, immigration, parisAccords, noGun, noImm, noPar
     })
 }
+replaceOffice(office){
+   switch(office){
+    case 'governer':
+      return 'gov'
+    case 'attorney general':
+      return 'ag'
+    case 'secretary of state':
+      return 'sos'
+    case 'Senate District 1':
+      return 'd1'
+    case 'Senate District 2':
+      return 'd2'
+    case 'Senate District 3':
+      return 'd3'
+    case 'Senate District 4':
+      return 'd4'
+    case 'Senate District 5':
+      return 'd5'
+    case 'Senate District 6':
+      return 'd6'
+    case 'Senate District 7':
+      return 'd7'
+    
+   }
+}
 
   componentDidMount(){
     fetch(`http://voterbackend.herokuapp.com/candidates`)
@@ -57,7 +82,7 @@ class Candidates extends Component {
   }
 
   createCandidateElements(arr){
-    return arr.map(candidate => <Cards candidate={candidate} />)
+    return arr.map(candidate => <Cards id={candidate.id} candidate={candidate} />)
   }
 
   changeChoice = (event) => {
@@ -79,7 +104,7 @@ class Candidates extends Component {
             <option value='immigration' >Immigration</option>
             <option value='gunControl' >Gun Control</option>
             <option value='parisAccords' >Paris Accord</option>
-            <option value='noImm' >Anti Immigration</option>
+            <option value='noImm' >Border Protection</option>
             <option value='noGun' >Anti Gun Control</option>
             <option value='noPar' >Anti Paris Accord</option>
         </select>
