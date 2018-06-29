@@ -57,7 +57,7 @@ class Candidates extends Component {
   }
 
   createCandidateElements(arr){
-    return arr.map(candidate => <Cards candidate={candidate} />)
+    return arr.map(candidate => <Cards candidate={candidate} key={candidate.id}/>)
   }
 
   changeChoice = (event) => {

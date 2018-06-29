@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DeleteUser from './DeleteUser'
 
 class MyBallot extends Component {
   constructor(props) {
@@ -15,13 +16,13 @@ class MyBallot extends Component {
   getData() {
     const token = window.localStorage.token
     if (token) {
-      fetch('http://voterbackend.herokuapp.com/user/myballot', {
+      fetch('https://voterbackend.herokuapp.com/myballot', {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`
         }
-      })
-        .then(res => res.json())
+      }).then(res => res.json())
+
         .then(resJSON => this.setState({ myCandidates: resJSON }))
     } else {
       window.location = '/'
@@ -33,6 +34,7 @@ class MyBallot extends Component {
     return (
       <div>
         <p>MyBallot</p>
+        <DeleteUser></DeleteUser>
       </div>
     );
   }
