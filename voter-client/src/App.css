@@ -259,8 +259,16 @@ h2 {
     list-style: none;
   }
 
-  
+  .holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .holder .card {
+    /* width: 70%; */
+  }
 /*Footer*/
 
 footer {
