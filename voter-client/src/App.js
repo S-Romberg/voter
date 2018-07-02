@@ -95,8 +95,9 @@ class App extends Component {
                       <Login login={this.login} logout={this.logout} />
                     )
                 )} />
-                <Route exact path='/candidates' component={() => <Candidates />} />
-                <Route exact path='/myballot' component={() => <MyBallot />} />
+
+                <Route exact path='/candidates' component={() => <Candidates addToBallot={this.addToBallot} />} />
+                <Route exact path='/myballot' component={() => <MyBallot myCandidates={this.state.myCandidates} />} />
                 <Route exact path='/resources' component={() => <Resources />} />
                 <Route exact path='/signup' render={() => (
                   this.state.redirect && !this.state.logout ? (
